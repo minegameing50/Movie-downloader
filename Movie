@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Download Movie Now</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #141e30, #243b55);
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+    h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 20px;
+      max-width: 700px;
+      margin: 0 auto 40px;
+      line-height: 1.6;
+    }
+    .button-space {
+      margin-top: 40px;
+    }
+    .download-button {
+      padding: 15px 35px;
+      font-size: 20px;
+      border: none;
+      border-radius: 10px;
+      background-color: #ff5722;
+      color: white;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    .download-button:hover {
+      background-color: #e64a19;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🎬 Get Ready for the Show!</h1>
+  <p>
+    Dive into the world of action, drama, and thrill with our latest movie release!  
+    Enjoy stunning visuals, heart-pounding sound, and an unforgettable story.  
+    Just one click away from your screen — no ads, no delays.  
+    Your ultimate movie night starts now.
+  </p>
+
+  <div class="button-space">
+    <!-- 🔽 Put your download button or link below -->
+    <!-- Example: -->
+    <a href="https://youtu.be/LWWMj2y-4C4" download class="download-button"> squad game session 3 </a>
+  </div>
+
+</body>
+</html>
